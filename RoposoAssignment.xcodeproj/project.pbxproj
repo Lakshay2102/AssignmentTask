@@ -13,6 +13,12 @@
 		5C00E2CF1CD92E8F006EB1AA /* RoposoAssignment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5C00E2CD1CD92E8F006EB1AA /* RoposoAssignment.xcdatamodeld */; };
 		5C00E2D11CD92E8F006EB1AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C00E2D01CD92E8F006EB1AA /* Assets.xcassets */; };
 		5C00E2D41CD92E8F006EB1AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C00E2D21CD92E8F006EB1AA /* LaunchScreen.storyboard */; };
+		5C00E2DC1CD93F94006EB1AA /* iOSData.json in Resources */ = {isa = PBXBuildFile; fileRef = 5C00E2DB1CD93F94006EB1AA /* iOSData.json */; };
+		5CAF98C61CDA85F400B00E71 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CAF98C41CDA85F400B00E71 /* User+CoreDataProperties.swift */; settings = {ASSET_TAGS = (); }; };
+		5CAF98C71CDA85F400B00E71 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CAF98C51CDA85F400B00E71 /* User.swift */; settings = {ASSET_TAGS = (); }; };
+		5CAF98CA1CDA861200B00E71 /* Story+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CAF98C81CDA861200B00E71 /* Story+CoreDataProperties.swift */; settings = {ASSET_TAGS = (); }; };
+		5CAF98CB1CDA861200B00E71 /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CAF98C91CDA861200B00E71 /* Story.swift */; settings = {ASSET_TAGS = (); }; };
+		5CAF98CF1CDA88CA00B00E71 /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CAF98CE1CDA88CA00B00E71 /* ModelController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		5C00E2D01CD92E8F006EB1AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C00E2D31CD92E8F006EB1AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C00E2D51CD92E8F006EB1AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C00E2DB1CD93F94006EB1AA /* iOSData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = iOSData.json; sourceTree = "<group>"; };
+		5CAF98C41CDA85F400B00E71 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		5CAF98C51CDA85F400B00E71 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		5CAF98C81CDA861200B00E71 /* Story+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Story+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		5CAF98C91CDA861200B00E71 /* Story.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
+		5CAF98CE1CDA88CA00B00E71 /* ModelController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +70,17 @@
 			children = (
 				5C00E2C61CD92E8F006EB1AA /* AppDelegate.swift */,
 				5C00E2C81CD92E8F006EB1AA /* ViewController.swift */,
+				5C00E2DB1CD93F94006EB1AA /* iOSData.json */,
 				5C00E2CA1CD92E8F006EB1AA /* Main.storyboard */,
 				5C00E2D01CD92E8F006EB1AA /* Assets.xcassets */,
 				5C00E2D21CD92E8F006EB1AA /* LaunchScreen.storyboard */,
 				5C00E2D51CD92E8F006EB1AA /* Info.plist */,
 				5C00E2CD1CD92E8F006EB1AA /* RoposoAssignment.xcdatamodeld */,
+				5CAF98C81CDA861200B00E71 /* Story+CoreDataProperties.swift */,
+				5CAF98CE1CDA88CA00B00E71 /* ModelController.swift */,
+				5CAF98C91CDA861200B00E71 /* Story.swift */,
+				5CAF98C41CDA85F400B00E71 /* User+CoreDataProperties.swift */,
+				5CAF98C51CDA85F400B00E71 /* User.swift */,
 			);
 			path = RoposoAssignment;
 			sourceTree = "<group>";
@@ -98,6 +116,7 @@
 				TargetAttributes = {
 					5C00E2C21CD92E8F006EB1AA = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 32H6Z63S2K;
 					};
 				};
 			};
@@ -124,6 +143,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C00E2DC1CD93F94006EB1AA /* iOSData.json in Resources */,
 				5C00E2D41CD92E8F006EB1AA /* LaunchScreen.storyboard in Resources */,
 				5C00E2D11CD92E8F006EB1AA /* Assets.xcassets in Resources */,
 				5C00E2CC1CD92E8F006EB1AA /* Main.storyboard in Resources */,
@@ -137,9 +157,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CAF98CB1CDA861200B00E71 /* Story.swift in Sources */,
 				5C00E2C91CD92E8F006EB1AA /* ViewController.swift in Sources */,
 				5C00E2C71CD92E8F006EB1AA /* AppDelegate.swift in Sources */,
+				5CAF98C61CDA85F400B00E71 /* User+CoreDataProperties.swift in Sources */,
+				5CAF98C71CDA85F400B00E71 /* User.swift in Sources */,
+				5CAF98CF1CDA88CA00B00E71 /* ModelController.swift in Sources */,
 				5C00E2CF1CD92E8F006EB1AA /* RoposoAssignment.xcdatamodeld in Sources */,
+				5CAF98CA1CDA861200B00E71 /* Story+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,6 +207,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -201,7 +227,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -226,6 +252,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -239,7 +266,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -250,7 +277,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = RoposoAssignment/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xyz.RoposoAssignment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -261,7 +290,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = RoposoAssignment/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xyz.RoposoAssignment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -287,6 +318,7 @@
 				5C00E2DA1CD92E8F006EB1AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
