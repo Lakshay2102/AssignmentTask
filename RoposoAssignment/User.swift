@@ -15,7 +15,7 @@ class User: NSManagedObject {
     
     // Insert code here to add functionality to your managed object subclass
     //MARK: Create entity Object
-    class func createUserObj(var data: Dictionary<String, NSObject>)->User {
+    class func createUserObj( data: Dictionary<String, NSObject>)->User {
         var entity : NSEntityDescription?
         
 
@@ -56,10 +56,11 @@ class User: NSManagedObject {
         let itemArrToBeInserted = NSMutableArray()
         for usr in itemArray {
            
-                let itemToBeInserted : User = usr as! User
-                
-//                let nsrDict = itemToBeInserted.toDictionary() as! Dictionary<String, NSObject>
-//                itemArrToBeInserted.addObject(self.createUserObj(itemToBeInserted))
+//                let itemToBeInserted : User 
+//
+////                let nsrDict = itemToBeInserted.toDictionary() as! Dictionary<String, NSObject>
+                itemArrToBeInserted.addObject(self.createUserObj(usr as! Dictionary<String, NSObject>))
+            
         }
         
         if itemArrToBeInserted.count > 0 {
